@@ -1,0 +1,25 @@
+.course-section {
+  .my-mark {
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+  }
+}
+
+.course-long img {
+  max-width: 100%;
+}
+
+.course--item {
+  width: 100%;
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .course-text {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+  }
+}

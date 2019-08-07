@@ -1,0 +1,15 @@
+.navbar--container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link {
+  font-family: Idealist, sans-serif;
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-link {
+    font-size: 25px;
+  }
+}
