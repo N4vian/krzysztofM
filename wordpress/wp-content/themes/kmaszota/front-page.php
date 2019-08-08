@@ -1,31 +1,4 @@
-  <body>
-    <!-- Start your project here-->
-    <!--Main Navigation-->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar gradient-darkblue-blue">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse navbar--container" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">O mnie <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Darmowe narzędzia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Kursy online</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-          </ul>
-          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
-        </div>
-      </nav>
-    </header>
-    <!--Main Navigation-->
+<?php get_header ();?>
 
     <div class="main">
       <!-- News jumbotron -->
@@ -37,7 +10,7 @@
             <div class="col-md-5 mx-3 d-flex flex-bottom hero--image">
               <!-- Featured image -->
               <div class="view overlay">
-                <img src="img/km-hero.png" class="img-fluid" alt="Krzysztof Maszota" />
+                <img src="<?php bloginfo('template_directory');?>/img/km-hero.png" class="img-fluid" alt="Krzysztof Maszota" />
                 <a>
                   <div class="mask rgba-white-slight"></div>
                 </a>
@@ -73,15 +46,15 @@
                   <div class="light-blue-stripe--wrapper light-blue-stripe--wrapper--right">
                     <a href="#">
                       <div class="light-blue-stripe--container">
-                        <img class="light-blue-stripe--icon" src="img/icons/facebook.png" /></div>
+                        <img class="light-blue-stripe--icon" src="<?php bloginfo('template_directory');?>/img/icons/facebook.png" /></div>
                     </a>
                     <a href="#">
                       <div class="light-blue-stripe--container">
-                        <img class="light-blue-stripe--icon" src="img/icons/instagram.png" /></div>
+                        <img class="light-blue-stripe--icon" src="<?php bloginfo('template_directory');?>/img/icons/instagram.png" /></div>
                     </a>
                     <a href="#">
                       <div class="light-blue-stripe--container">
-                        <img class="light-blue-stripe--icon" src="img/icons/linkedin.png" /></div>
+                        <img class="light-blue-stripe--icon" src="<?php bloginfo('template_directory');?>/img/icons/linkedin.png" /></div>
                     </a>
                   </div>
                 </div>
@@ -101,16 +74,16 @@
         <div class="col-sm-12 col-md-9">
           <div class="row align-items-center">
             <div class="col-sm-6 col-md-3 my-3 d-flex flex-center">
-              <img src="img/logos/1-01.png" alt="" />
+              <img src="<?php bloginfo('template_directory');?>/img/logos/1-01.png" alt="" />
             </div>
             <div class="col-sm-6 col-md-3 my-3 d-flex flex-center">
-              <img src="img/logos/2-01.png" alt="" />
+              <img src="<?php bloginfo('template_directory');?>/img/logos/2-01.png" alt="" />
             </div>
             <div class="col-sm-6 col-md-3 my-3 d-flex flex-center">
-              <img src="img/logos/222-01.png" alt="" />
+              <img src="<?php bloginfo('template_directory');?>/img/logos/222-01.png" alt="" />
             </div>
             <div class="col-sm-6 col-md-3 my-3 d-flex flex-center">
-              <img src="img/logos/6-01.png" alt="" />
+              <img src="<?php bloginfo('template_directory');?>/img/logos/6-01.png" alt="" />
             </div>
           </div>
         </div>
@@ -142,7 +115,7 @@
           <div class="row mb-3">
             <div class="col-sm-12 col-md-4">
               <div class="course--item">
-                <img src="img/photos/pic-1.png" alt="" />
+                <img src="<?php bloginfo('template_directory');?>/img/photos/pic-1.png" alt="" />
                 <h3 class="course-text">
                   Jak wyjść z długów szybko i komfortowo
                 </h3>
@@ -150,13 +123,13 @@
             </div>
             <div class="col-sm-12 col-md-4">
               <div class="course--item">
-                <img src="img/photos/pic-2.png" alt="" />
+                <img src="<?php bloginfo('template_directory');?>/img/photos/pic-2.png" alt="" />
                 <h3 class="course-text">Jak zbudować wiarygodność finansową?</h3>
               </div>
             </div>
             <div class="col-sm-12 col-md-4">
               <div class="course--item">
-                <img src="img/photos/pic-3.png" alt="" />
+                <img src="<?php bloginfo('template_directory');?>/img/photos/pic-3.png" alt="" />
                 <h3 class="course-text">
                   Jak oszczędzić na hipotece krok po kroku?
                 </h3>
@@ -196,7 +169,7 @@
           <div class="d-flex flex-row justify-content-center flex-wrap">
             <div class="col-sm-12 col-md-7">
               <div class="img-container">
-                <img src="img/photos/pic-4.png" alt="" />
+                <img src="<?php bloginfo('template_directory');?>/img/photos/pic-4.png" alt="" />
               </div>
             </div>
             <div class="col-sm-12 col-md-5">
@@ -216,7 +189,7 @@
         <div class="container">
           <div class="d-flex flex-row flex-wrap justify-content-center">
             <div class="col-sm-12 col-md-4">
-              <img class="img-max-100" src="img/photos/pic-5.png" alt="" />
+              <img class="img-max-100" src="<?php bloginfo('template_directory');?>/img/photos/pic-5.png" alt="" />
               <h4 class="font-weight-bold my-3">Hipoteka - 7 konwersji</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -225,7 +198,7 @@
               </p>
             </div>
             <div class="col-sm-12 col-md-4">
-              <img class="img-max-100" src="img/photos/pic-5.png" alt="" />
+              <img class="img-max-100" src="<?php bloginfo('template_directory');?>/img/photos/pic-5.png" alt="" />
               <h4 class="font-weight-bold my-3">Oszędzanie - mity</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -234,7 +207,7 @@
               </p>
             </div>
             <div class="col-sm-12 col-md-4">
-              <img class="img-max-100" src="img/photos/pic-5.png" alt="" />
+              <img class="img-max-100" src="<?php bloginfo('template_directory');?>/img/photos/pic-5.png" alt="" />
               <h4 class="font-weight-bold my-3">Jak edytować kredyt?</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -352,7 +325,7 @@
             </div>
           </div>
           <div class="col-md-8">
-            <div class="d-flex align-items-end justify-content-end"><img src="img/photos/k-maszota.png" alt="Krzysztof Maszota" /></div>
+            <div class="d-flex align-items-end justify-content-end"><img src="<?php bloginfo('template_directory');?>/img/photos/k-maszota.png" alt="Krzysztof Maszota" /></div>
           </div>
         </div>
       </section>
@@ -360,7 +333,7 @@
         <div class="d-flex flex-column flex-md-row align-items-center">
           <div class="col-sm-4 d-flex flex-column justify-content-center align-items-center">
             <div class="py-3 d-flex flex-column justify-content-center align-items-center">
-              <img class="mb-4" src="img/icons/board.png" />
+              <img class="mb-4" src="<?php bloginfo('template_directory');?>/img/icons/board.png" />
               <h3 class="text-white font-weight-bold text-uppercase ">
                 Zacznij planować
               </h3>
@@ -368,7 +341,7 @@
           </div>
           <div class="col-sm-4 d-flex flex-column justify-content-center align-items-center">
             <div class="py-3 d-flex flex-column justify-content-center align-items-center">
-              <img class="mb-4" src="img/icons/coins.png" alt="" />
+              <img class="mb-4" src="<?php bloginfo('template_directory');?>/img/icons/coins.png" alt="" />
               <h3 class="text-white font-weight-bold text-uppercase ">
                 Oszczędzaj pieniądze
               </h3>
@@ -376,7 +349,7 @@
           </div>
           <div class="col-sm-4 d-flex flex-column justify-content-center align-items-center">
             <div class="py-3 d-flex flex-column justify-content-center align-items-center">
-              <img class="mb-4" src="img/icons/home.png" alt="" />
+              <img class="mb-4" src="<?php bloginfo('template_directory');?>/img/icons/home.png" alt="" />
               <h3 class="text-white font-weight-bold text-uppercase ">
                 Wybieraj mądrze
               </h3>
@@ -464,7 +437,7 @@
             </div>
             <div class="col-sm-12 col-md-7">
               <div class="d-flex justify-content-end">
-                <img src="img/photos/pic-6.png" alt="" />
+                <img src="<?php bloginfo('template_directory');?>/img/photos/pic-6.png" alt="" />
               </div>
             </div>
           </div>
@@ -473,7 +446,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-7">
               <div class="d-flex justify-content-start">
-                <img src="img/photos/pic-7.png" alt="" />
+                <img src="<?php bloginfo('template_directory');?>/img/photos/pic-7.png" alt="" />
               </div>
             </div>
             <div class="col-sm-12 col-md-5">
@@ -584,7 +557,7 @@
             </div>
             <div class="col-sm-12 col-md-7">
               <div class="d-flex justify-content-end">
-                <img src="img/photos/pic-8.png" alt="" />
+                <img src="<?php bloginfo('template_directory');?>/img/photos/pic-8.png" alt="" />
               </div>
             </div>
           </div>
@@ -665,7 +638,7 @@
             </div>
             <div class="col-sm-12 col-md-7 mb-4">
               <div>
-                <img class="img-max-100" src="img/photos/pic-9.png" alt="" />
+                <img class="img-max-100" src="<?php bloginfo('template_directory');?>/img/photos/pic-9.png" alt="" />
               </div>
             </div>
           </div>
@@ -675,3 +648,4 @@
         </div>
       </section>
     </div>
+    <?php wp_footer();?>

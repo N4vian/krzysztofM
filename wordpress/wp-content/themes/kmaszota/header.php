@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,12 +7,7 @@
   <title>Krzysztof Maszota</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet" />
-  <!-- Your custom styles (optional) -->
-  <link href="css/style.css" rel="stylesheet" />
+  <?php wp_head(); ?>
 </head>
 
 <body>
@@ -44,3 +38,5 @@
     </nav>
   </header>
   <!--Main Navigation-->
+
+  <body>
