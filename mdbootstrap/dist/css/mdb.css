@@ -9201,7 +9201,10 @@ ul.stepper {
   background: -webkit-linear-gradient(82deg, #00132b, #002556, #224370);
   background: -o-linear-gradient(82deg, #00132b, #002556, #224370);
   background: linear-gradient(8deg, #00132b, #002556, #224370);
-  padding: 1em 2em; }
+  padding: 1em 2em;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content; }
   .my-mark h3 {
     color: white;
     font-weight: bold;

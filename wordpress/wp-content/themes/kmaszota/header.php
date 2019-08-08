@@ -33,7 +33,7 @@
             <a class="nav-link" href="#">Blog</a>
           </li>
         </ul>
-        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
+        <a class="navbar-brand" href="#"><img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="" /></a>
       </div>
     </nav>
   </header>
